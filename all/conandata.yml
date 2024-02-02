@@ -1,5 +1,6 @@
 sources:
-  "0.0.1":
-    url:
-    sha256:
+  latest:
+    url: https://github.com/werto87/modern_durak_game_shared/archive/refs/heads/main.zip
+
+  0.0.1:
 

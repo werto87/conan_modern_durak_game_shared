@@ -7,7 +7,7 @@ required_conan_version = ">=1.51.1"
 
 
 class ConanHeaderOnly(ConanFile):
-    name = "lib_name"
+    name = "modern_durak_game_shared"
     package_type = "header-library"
     settings = "os", "arch", "compiler", "build_type"
     generators = "CMakeDeps", "CMakeToolchain"
@@ -22,7 +22,8 @@ class ConanHeaderOnly(ConanFile):
         self.options["fmt"].header_only = True
 
     def requirements(self):
-        self.requires("boost/1.84.0")
+        self.requires("durak/1.0.0")
+        self.requires("confu_json/1.0.1")
 
     def layout(self):
         cmake_layout(self, src_folder=self.name + "-" + str(self.version))
