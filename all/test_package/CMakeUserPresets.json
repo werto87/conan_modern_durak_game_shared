@@ -4,6 +4,6 @@
         "conan": {}
     },
     "include": [
-        "/home/walde/PycharmProjects/conan_modern_durak_game_shared/all/test_package/build/gcc-13-x86_64-gnu20-release/generators/CMakePresets.json"
+        "build/clang-17-x86_64-gnu20-release/generators/CMakePresets.json"
     ]
 }

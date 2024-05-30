@@ -22,7 +22,7 @@ class ConanHeaderOnly(ConanFile):
         self.options["fmt"].header_only = True
 
     def requirements(self):
-        self.requires("confu_json/[>=1.0.2 <2]")
+        self.requires("confu_json/[>=1.0.1 <2]")
         self.requires("modern_durak_game_option/latest")
 
     def layout(self):
