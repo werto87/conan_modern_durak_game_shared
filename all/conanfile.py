@@ -23,6 +23,7 @@ class ConanHeaderOnly(ConanFile):
 
     def requirements(self):
         self.requires("confu_json/[>=1.0.1 <2]")
+        self.requires("modern_durak_game_option/latest")
 
     def layout(self):
         cmake_layout(self, src_folder=self.name + "-" + str(self.version))
