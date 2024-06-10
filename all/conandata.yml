@@ -2,5 +2,6 @@ sources:
   latest:
     url: https://github.com/werto87/modern_durak_game_shared/archive/refs/heads/main.zip
 
-  0.0.1:
-
+  0.0.0:
+    url: https://github.com/werto87/modern_durak_game_shared/archive/refs/tags/v0.0.0.tar.gz
+    sha256: 35752c47c34d727e63eccb7cb377e1f90bffb1d8be815355f3144c0f448e534f
