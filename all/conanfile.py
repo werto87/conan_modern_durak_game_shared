@@ -18,11 +18,9 @@ class ConanHeaderOnly(ConanFile):
     def configure(self):
         if self.settings.compiler.cppstd:
             check_min_cppstd(self, "20")
-        self.options["boost"].header_only = True
-        self.options["fmt"].header_only = True
 
     def requirements(self):
-        self.requires("confu_json/[>=1.0.1 <2]")
+        self.requires("confu_json/[<2]@modern-durak")
         self.requires("modern_durak_game_option/latest")
 
     def layout(self):
